@@ -47,15 +47,30 @@ We analyzed the customer journey from message delivery to final purchase. The fu
 
 ![Funnel Analysis](images/funnel_analysis.png)
 
+### 📊 Funnel Analysis Insights
+- Significant drop between delivered and opened emails suggests a need to improve subject lines or sender recognition.
+- Additional drop from opened to clicked indicates weak call-to-actions or poor email content alignment.
+- Slight increase at the purchase stage may reflect brand familiarity or returning customers converting through other channels.
+
 ### Cohort Analysis
 We grouped customers by the month of their first campaign interaction and tracked purchases over time. This reveals customer retention patterns and repeat purchase behavior.
 
 ![Cohort Heatmap](images/cohort_heatmap.png)
 
+### 📅 Cohort Analysis Insights
+- Late 2023 and early 2024 cohorts showed strong engagement, likely influenced by seasonal campaigns.
+- Some cohorts demonstrate long-term retention with purchases even 12+ months after first contact.
+- Recent cohorts are still new, and their long-term value remains to be seen.
+
 ### RFM Analysis
 We segmented customers based on Recency, Frequency, and Monetary value of their purchases. This helps identify Champions, Loyal Customers, and At-Risk segments.
 
 ![RFM Segmentation](images/rfm_segmentation.png)
+
+### 💬 RFM Insights
+- Most customers fall into the middle range (RFM score 5–6), indicating moderate engagement.
+- A smaller group scores high (8–10), representing loyal and high-value clients worth retaining.
+- Low-score customers (3–4) may require re-engagement strategies or be excluded from future targeted campaigns.
 
 ### Basic Campaign Performance Metrics
 We calculated Open Rates and Click Rates for each marketing campaign and identified the best-performing campaigns and most engaged customers.
@@ -82,6 +97,6 @@ We calculated Open Rates and Click Rates for each marketing campaign and identif
 4. Run the notebook to generate insights and visualizations.
 
 ## 📬 Contact
-Created with ❤️ by Mariia Maslova  
+Created by Mariia Maslova  
 Feel free to connect!
-'''
+
