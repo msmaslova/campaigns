@@ -29,11 +29,21 @@ Marketing_Campaign_Analysis/
 - **Jupyter Notebook**
 
 ## 📋 Database Tables
-| Table | Description |
-|:------|:------------|
-| `campaigns` | List of marketing campaigns with names, start dates, and budgets |
-| `customers` | Information about customers (name, age, city) |
-| `campaign_results` | Interaction records: opened, clicked, purchased |
+
+### 🧾 Dataset Overview
+
+The project uses a simulated dataset with the following structure:
+
+- **Campaigns**: 10 unique marketing campaigns with varying budgets and start dates.
+- **Customers**: 100 unique customers with demographic data (name, age, city).
+- **Campaign Results**:
+  - Total interactions: ~400–500 rows
+  - Unique customers: 100
+  - Opened emails: ~85% of customers
+  - Clicked links: ~75%
+  - Purchases made: ~60%
+
+The data was generated using the `Faker` library to resemble realistic marketing behavior patterns. It includes multiple campaigns per customer and simulates typical user engagement levels across a conversion funnel.
 
 ## 🧐 Key Questions Answered
 - What are the open and click rates for each campaign?
